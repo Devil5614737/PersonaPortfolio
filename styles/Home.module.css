@@ -310,7 +310,7 @@ outline:none;
   }
   .heroContainer::before{
     font-size: 10rem;
-    display: none;
+
   }
   .sectionTitle>p{
     font-size: 2rem;
