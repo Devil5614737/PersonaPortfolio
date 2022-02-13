@@ -323,3 +323,20 @@ outline:none;
   
     }
 }
+@media screen and (max-width:600px) {
+  .title{
+    font-size: 3rem;
+  }
+  .logo{
+  font-size: 1.6rem;
+  }
+  .link{
+    font-size: 1.3rem;
+  
+  }
+  .heroContainer::before{
+    font-size: 8rem;
+
+  }
+  
+}
