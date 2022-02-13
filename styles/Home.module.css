@@ -299,7 +299,7 @@ outline:none;
 }
 @media screen and (max-width:600px) {
   .title{
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .logo{
   font-size: 1.6rem;
@@ -310,6 +310,7 @@ outline:none;
   }
   .heroContainer::before{
     font-size: 10rem;
+    display: none;
   }
   .sectionTitle>p{
     font-size: 2rem;
