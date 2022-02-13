@@ -10,19 +10,10 @@ import Firebase from '../public/firebaseIcon.svg';
 import Bootstrap from '../public/bootstrapIcon.svg';
 import Sass from '../public/sassIcon.svg';
 import Sql from '../public/sqlIcon.svg';
-import { useEffect } from 'react';
+
 
 export default function Home() {
 
-useEffect(()=>{
-  function themeToggle(){
-    const btn=document.getElementById('darkBtn')
-    btn.addEventListener('click',()=>{
-      document.body.style.backgroundColor='black'
-    })
-  }
-themeToggle()
-})
 
 
   return(
@@ -189,7 +180,7 @@ themeToggle()
         </div>
       </section>
     </main>
-    <div id='darkBtn' className={styles.darkMode}></div>
+   
     </>
   )
 }
